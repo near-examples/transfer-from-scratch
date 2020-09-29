@@ -8,7 +8,7 @@ This repository is intended to be used by the command line of NodeJS. It aims to
     yarn
     node transfer.js
     
-Note: there are full-access private keys stored in the `./private-keys` directory. If these accounts are eventually deleted, please replace with full-access, unencrypted filestore keys (JSON files typically found in `~/.near-credentials/default` for instance) and change the variable names of `accountSending` and `accountReceiving` in `transfer.js`. 
+Note: this simple script is for demonstration purposes and the `nonce` may need to be increased. There is no automatic incrementing.
 
 A good way to check that this script is successful is to use the NEAR CLI tool. Install it with:
 
@@ -25,3 +25,5 @@ After observing this, run:
     node transfer.js
     
 Run the `near state…` command again and observe that the amounts have indeed changed during the transfer.
+
+There are full-access private keys stored in the `./private-keys` directory. If these accounts are eventually deleted, please replace with full-access, unencrypted filestore keys (JSON files typically found in `~/.near-credentials/default` for instance) and change the variable names of `accountSending` and `accountReceiving` in `transfer.js`. 
