@@ -1,0 +1,20 @@
+{
+  "name": "near-transfer-from-scratch",
+  "version": "1.0.0",
+  "description": "Demonstrate using near-api-js to send a transfer transaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nearprotocol",
+    "blockchain",
+    "transaction"
+  ],
+  "author": "Mike Purvis",
+  "license": "ISC",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "near-api-js": "^0.30.0"
+  }
+}
